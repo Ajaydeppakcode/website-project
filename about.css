@@ -1,0 +1,74 @@
+*{
+    text-decoration: none;
+  }
+  .navbar{
+    background: fixed;
+    font-family:'Courier New', Courier, monospace;
+    padding-right: 15px;
+    padding-left: 15px;
+    background:black;
+    height: 120px;
+  }
+  .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+  }
+  .logo img{
+    width: 130px;
+    height: 120px;
+  }
+  li{
+    list-style: none;
+    display: inline-block;
+  }
+  li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
+body{
+    background-color:dimgrey;
+}
+h1{
+    text-align: center;
+}
+.mission{
+    align-content:center;
+    /* width: 20%; */
+    font-size: 20;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+.mission h3{
+    text-align: center;
+}
+.value{
+    align-content: right;
+    /* width: 20%; */
+    font-size: 20;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+.value p{
+    /* width: 20%; */
+    text-align: justify;
+}
+.value h3{
+    /* width: 20%; */
+    text-align: center;
+}
+.team h3{
+    /* width: 20%; */
+    text-align: center;
+}
+.port h3{
+    width: 20%;
+    text-align: center;
+}
